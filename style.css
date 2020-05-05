@@ -1,0 +1,146 @@
+*{
+	margin:0
+	padding:0 
+}
+
+html,
+body {
+     height; 100%;	
+}
+body{
+	background: #BC8F8F;
+}
+
+#wrap {
+	width=980px;
+	margin: 0 auto;
+	background-color: #E6E6FA;
+	min-height:100%;
+	position: relative;
+	
+}
+
+#navigation{
+     height: 110px;
+	 background: transparent url("phone.jpg") repeat-x;
+	 clear: both; 
+}
+#navigation>ul {
+	height: 110px;
+}
+#navigation>ul>li {
+	float: left;
+	border-right: 0px solid white;
+	list-style-type: none;
+	position: relative;
+}
+#navigation>ul>li>a {
+	font-weight: bold;
+	color: black:
+	text-decoration: none;
+	display: block;
+	line-height: 14 px;
+	padding: 20px 329px;
+	border-right: 1px solid pink;
+}
+#navigation>ul>li.active>a {
+	background-color: #333;
+	color: #76e16e;
+}
+#content {
+	padding-bottom: 0 29px 102px;
+	overflow: hidden;
+	clear: both;
+	margin-top: 30px;	
+}
+#leftcol{
+    width: 220px;
+	float: left;
+	padding: 3px 3px 4px;
+	margin-right: 18px;
+}
+.block{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: Thistle;
+	-webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+	-moz-box-shadow: 0 1px 5px rgba(0,0,0,0.25);
+	margin-bottom: 20px;
+}
+
+
+ #main {
+     overflow: hidden; 
+	  background: transparent url("backphoto.jpg") repeat ;
+ }
+#list{
+	margin-top: 40px;
+	overflow: hidden;
+}
+#list>.item{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: Thistle;
+	border: 1px solid #ddd;
+	float: right;
+	margin: 0 40px 40px 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 10px;
+	text-align: center;	
+}
+#list>.item>p,
+#list>.item>div{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+#list>.item>.name{
+	font: bold 30px/32px Castellar;
+	height: 35px;
+	color: red;
+}
+#list>.item>.photo{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #e4e4e4;
+	width: 450px;
+	height: 250px;
+	margin: 0 auto 25px;	
+}
+#list>.item>.photo>img{
+	width: auto;
+	height: 250px;
+}
+#list>.item>.decs {
+	font-size: 18px;
+	line-height: 24px;
+	height: 60px;
+}
+.words{
+	font: bold 30px/32px Castellar;
+	height: 40px;
+	color: MidnightBlue;
+	
+}
+.answer{
+	font: bold 30px/32px Castellar;
+	height: 40px;
+	color: white;
+	
+}
+
+#footer{
+     height: 50px;
+	 background-color: #9370DB;
+     position: absolute;
+	 bottom: 0;
+	 width: 100%;
+}
+
+.content{
+     padding: 15px;
+}
